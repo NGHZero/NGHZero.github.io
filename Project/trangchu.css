@@ -51,6 +51,7 @@
    background-color:  rgba(0, 0, 0, 0.92);
     display:flex;
     box-shadow: 0px 0px 10px;
+    text-align: center;
 }
 .p2{
     padding-top : 5px;
@@ -284,7 +285,7 @@ color: #7E7E7E;
   align-self: center;
 }
 
-
+@import url(//db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold);
 
 .back{
   width: 100%;
@@ -302,14 +303,18 @@ color: #7E7E7E;
 
 }
 
+
+
 .item{
   background-color: #0A0A0C;
+  
 }
 
 .item .img img{
 width: 241.2px ;
 height: 423px ;
 object-fit: cover;
+
 }
 
 
@@ -318,4 +323,33 @@ object-fit: cover;
   justify-content: space-between;
   margin-left: 119.6px; 
   margin-right: 119.6px; 
+}
+
+.item .img ul li{
+  @font-face {font-family: "BeaufortforLOL-Bold"; src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot"); src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff") format("woff"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#BeaufortforLOL-Bold") format("svg"); }
+}
+
+.item .img ul li .ten{
+  color: #937341;
+  text-align: center;
+
+}
+
+.item .img ul li .kv{
+  color: #C4B998;
+ text-align: center;
+  
+}
+
+.item .img .info{
+
+  border-top :0.1px solid  rgba(184, 125, 4, 1);
+  margin-bottom: 1cm;
+}
+
+
+
+body{
+
+  background-color:#0A0A0C;
 }
