@@ -41,7 +41,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin : 10px 27.1px 10px
+  margin : 10px 27.1px 10px;
+  width: 70%;
   }
 .p1{
     width: 100%;
@@ -345,6 +346,7 @@ object-fit: cover;
 
   border-top :0.1px solid  rgba(184, 125, 4, 1);
   margin-bottom: 1cm;
+  background-color: rgba(0, 0, 0, 0.28);
 }
 
 
