@@ -298,6 +298,7 @@ span.control_next {
 .p7{
 background-color: #111111 ;
 color: #7E7E7E;
+
 }
 
 .p7 a{
@@ -323,15 +324,15 @@ color: #7E7E7E;
   justify-content: space-between;
   text-align: center;
 }
+.p7 .l56{
+justify-content: center;
+text-align: center;
+
+}
 .p7 .l5{
-  justify-content: space-between;
-  text-align: center;
+
 }
-.p7 .l6{
-  justify-content: center;
-  text-align: center;
-  align-self: center;
-}
+
 
 @import url(//db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold);
 
