@@ -1,47 +1,36 @@
-jQuery(document).ready(function ($) {
-
-    $('#checkbox').change(function(){
-      setInterval(function () {
-          moveRight();
-      }, 3000);
+$("#carouselExample").on("slide.bs.carousel", function (e) {
+    var $e = $(e.relatedTarget);
+    var idx = $e.index();
+    var itemsPerSlide = 4;
+    var totalItems = $(".carousel-item").length;
+  
+    if (idx >= totalItems - (itemsPerSlide - 1)) {
+      var it = itemsPerSlide - (totalItems - idx);
+      for (var i = 0; i < it; i++) {
+        // append slides to end
+        if (e.direction == "left") {
+          $(".carousel-item").eq(i).appendTo(".carousel-inner");
+        } else {
+          $(".carousel-item").eq(0).appendTo(".carousel-inner");
+        }
+      }
+    }
+  });
+  
+  $("#carouselExample").carousel({
+    interval: 2000
+  });
+  
+  $(document).ready(function () {
+    /* show lightbox when clicking a thumbnail */
+    $("a.thumb").click(function (event) {
+      event.preventDefault();
+      var content = $(".modal-body");
+      content.empty();
+      var title = $(this).attr("title");
+      $(".modal-title").html(title);
+      content.html($(this).html());
+      $(".modal-profile").modal({ show: true });
     });
-    
-      var slideCount = $('#slider ul li').length;
-      var slideWidth = $('#slider ul li').width();
-      var slideHeight = $('#slider ul li').height();
-      var sliderUlWidth = slideCount * slideWidth;
-      
-      $('#slider').css({ width: slideWidth, height: slideHeight });
-      
-      $('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
-      
-      $('#slider ul li:last-child').prependTo('#slider ul');
-  
-      function moveLeft() {
-          $('#slider ul').animate({
-              left: + slideWidth
-          }, 200, function () {
-              $('#slider ul li:last-child').prependTo('#slider ul');
-              $('#slider ul').css('left', '');
-          });
-      };
-  
-      function moveRight() {
-          $('#slider ul').animate({
-              left: - slideWidth
-          }, 200, function () {
-              $('#slider ul li:first-child').appendTo('#slider ul');
-              $('#slider ul').css('left', '');
-          });
-      };
-  
-      $('span.control_prev').click(function () {
-          moveLeft();
-      });
-  
-      $('span.control_next').click(function () {
-          moveRight();
-      });
-  
-  });    
+  });
   

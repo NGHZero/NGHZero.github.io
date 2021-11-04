@@ -1,0 +1,79 @@
+.ttnk .nk1{
+display: flex;
+justify-content: space-between;
+}
+
+.ttnk .nk2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+.ttnk .nk1 div{
+    border: 0.1px solid rgba(254, 255, 182, 0.8);
+    color: aliceblue;
+    text-align: unset;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.ttnk .nk2 div{
+    border: 0.1px solid rgba(254, 255, 182, 0.8);
+    color: aliceblue;
+    text-align: unset;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+
+
+.osh .nk1{
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .osh .nk2{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 26px;
+    }
+    .osh .nk1 div{
+        border: 0.1px solid rgba(254, 255, 182, 0.8);
+        color: aliceblue;
+        text-align: unset;
+        border-radius: 2px;
+        text-decoration: none;
+        font-weight: bold;
+        
+    }
+    
+    .osh .nk2 div{
+        border: 0.1px solid rgba(254, 255, 182, 0.8);
+        color: aliceblue;
+        text-align: unset;
+        border-radius: 2px;
+        text-decoration: none;
+        font-weight: bold;
+        
+    }
+
+
+
+    .osh{
+        background-color:#010a13;
+        padding-left: 150px;
+        padding-right: 50px;
+        height:75vh
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.8),rgba(0,0,0,0.)), url()
+    
+    }
+    
+    .osh h3{
+    font-weight: bold;
+    color: #f8f8f8;
+    text-align: unset;
+    vertical-align: bottom;
+    }

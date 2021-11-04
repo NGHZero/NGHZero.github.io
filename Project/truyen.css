@@ -119,23 +119,6 @@ h3 {
 	cursor: pointer;
     margin-top: 250px;
 }
-/* .slide img.zoomed {
-	width: 500px;
-	height: 600px;
-	position: fixed;
-	left: 25%;
-	top: 0%;
-	z-index: 1000;
-	transform: scale(1) translatey(0) !important; */
-/* } */
-/* .overlay {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	background: rgba(0, 0, 0, 0.45);
-	top: 0;
-	display: none;
-} */
 .overlay.active {
 	display: block;
 }
@@ -161,9 +144,21 @@ h3 {
 
 .ttnk{
 	background-color:#010a13;
+	padding-left: 150px;
+	padding-right: 50px;
+	height:75vh
+
+}
+
+.ttnk h3{
+font-weight: bold;
+color: #f8f8f8;
+text-align: unset;
+vertical-align: bottom;
 }
 
 
+  
 
 
 
