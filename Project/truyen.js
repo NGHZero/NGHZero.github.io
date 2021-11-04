@@ -11,3 +11,5 @@ $(".slide img").on("click", function () {
 	$(".overlay").toggleClass("active");
 });
 
+
+
