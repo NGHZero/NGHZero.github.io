@@ -22,14 +22,14 @@ body ::-webkit-input-placeholder {
 }
 body .authent {
   display: none;
-  background: #35394a;
+  /* background: #35394a; */
   /* Old browsers */
   /* FF3.6+ */
   /* Chrome,Safari4+ */
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
-  background: linear-gradient(45deg, #35394a 0%, #1f222e 100%);
+  /* background: linear-gradient(45deg, #35394a 0%, #1f222e 100%); */
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#35394a", endColorstr="#1f222e",GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
@@ -85,7 +85,6 @@ body .login {
   transform: rotateX(0deg);
   position: relative;
   width: 240px;
-  border-top: 2px solid #D8312A;
   height: 300px;
   position: absolute;
   left: 0;
