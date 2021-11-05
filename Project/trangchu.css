@@ -16,6 +16,7 @@
     font-family: Verdana;
     padding: 12px;
     margin: 0 10px;
+   font-weight: bold;
     
   }
   .nav-links::before {

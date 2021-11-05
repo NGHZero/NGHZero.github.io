@@ -1,0 +1,27 @@
+span{
+    margin:auto
+
+}
+
+.dropdown > ul{
+    list-style: none;
+    display:none;
+    margin: auto;
+    background-color: black;
+    
+
+}
+
+.dropdown > ul >a >li{
+text-align: start;
+    margin: auto;
+    margin-top: 20px;
+    color: #eee;
+    text-decoration:none ;
+
+
+}
+
+.dropdown:hover > ul{
+display: block;
+}
