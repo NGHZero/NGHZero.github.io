@@ -3,6 +3,34 @@ span{
 
 }
 
+.dropdown1 > ul{
+    list-style: none;
+    display:none;
+    margin: auto;
+    background-color: black;
+    
+
+}
+
+.dropdown1 > ul >a >li{
+text-align: start;
+    margin: auto;
+    margin-top: 20px;
+    color: #eee;
+    text-decoration:none ;
+
+
+}
+
+.dropdown1:hover > ul{
+display: block;
+}
+
+span{
+    margin:auto
+
+}
+
 .dropdown > ul{
     list-style: none;
     display:none;
