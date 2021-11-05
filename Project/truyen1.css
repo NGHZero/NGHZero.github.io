@@ -1,3 +1,27 @@
+.ttnk{
+	background-color:#010a13;
+	padding-left: 150px;
+	padding-right: 50px;
+	height:75vh;
+    padding-top: 100px;
+
+}
+
+.ttnk p{
+    font-weight: bold;
+   color:bisque;
+    text-align: center;
+    vertical-align: bottom;
+    }
+
+.ttnk h3{
+font-weight: bold;
+color: #f8f8f8;
+text-align: center;
+vertical-align: bottom;
+
+}
+
 .ttnk .nk1{
 display: flex;
 justify-content: space-between;
@@ -66,9 +90,10 @@ justify-content: space-between;
         background-color:#010a13;
         padding-left: 150px;
         padding-right: 50px;
-        padding-top: 100px;
+        padding-top: 200px;
         /* height:75vh; */
-        background-image: linear-gradient(to bottom, rgba(0,0,0,0.8),rgba(0,0,0,0.)), url()
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.8),rgba(0,0,0,0.)), url();
+        padding-bottom: 100px;
 
     
     }
@@ -76,9 +101,16 @@ justify-content: space-between;
     .osh h3{
     font-weight: bold;
     color: #f8f8f8;
-    text-align: unset;
+    text-align: center;
     vertical-align: bottom;
     }
+
+    .osh p{
+        font-weight: bold;
+       color:bisque;
+        text-align: center;
+        vertical-align: bottom;
+        }
 
 
 .ttnk .nk1 .item{
